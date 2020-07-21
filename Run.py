@@ -5,7 +5,7 @@ class TestRunBuilder:
 
     def __init__(self, username, user_email, user_password):
         if len(username) < 4 or len(username) > 25:
-            raise Exception("username  can't be with length less 8 "
+            raise Exception("username  can't be with length less 4 "
                             "characters and more 25 characters")
         self.username = username;
 
