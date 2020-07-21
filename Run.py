@@ -36,8 +36,6 @@ class TestRunBuilder:
         print("User clicks on button [Sign in]")
         print("User creates and is redirected to their account ")
 
-
-
     def test_article_suit(self):
         print("article_suit:");
         print("User clicks on New Post ")
@@ -47,20 +45,16 @@ class TestRunBuilder:
         print("User clicks on button [Publish Article]")
         print("User redirects to their article page")
 
-
-
     def test_run_smoke(self):
         print("test_run_smoke:");
         self.test_login_suit();
         self.test_registration_suit();
         print("\n");
 
-
     def test_run_sanity(self):
         print("test_run_sanity for login:");
         self.test_login_suit();
         print("\n");
-
 
     def test_run_regression(self):
         print("test_run_regression")
@@ -68,8 +62,6 @@ class TestRunBuilder:
         self.test_article_suit();
         self.test_registration_suit();
         print("\n");
-
-
 
 test_run_smoke = TestRunBuilder("dima", "dimalitvin192.0@gmail.com","amid1516")
 test_run_smoke.test_run_smoke();
